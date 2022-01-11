@@ -133,5 +133,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency 'ffmpeg-kit-ios-min-gpl', '4.5.LTS'
+  
+  spec.static_framework = true
 
 end
