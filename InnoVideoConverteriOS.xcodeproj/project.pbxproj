@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BCE0C75A34D7C5C24AA3021 /* Pods_InnoVideoConverteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4655658E138C367ED230200 /* Pods_InnoVideoConverteriOS.framework */; };
+		DB00D76B278D345E00B9B111 /* InnoConverterMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D76A278D345E00B9B111 /* InnoConverterMapper.swift */; };
+		DB00D76C278D345E00B9B111 /* InnoConverterMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D76A278D345E00B9B111 /* InnoConverterMapper.swift */; };
+		DB00D770278D357800B9B111 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D76F278D357800B9B111 /* CGFloatExtension.swift */; };
+		DB00D771278D357800B9B111 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D76F278D357800B9B111 /* CGFloatExtension.swift */; };
+		DB00D773278D36F600B9B111 /* InnoVideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D772278D36F600B9B111 /* InnoVideoConverter.swift */; };
+		DB00D774278D36F600B9B111 /* InnoVideoConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00D772278D36F600B9B111 /* InnoVideoConverter.swift */; };
+		DB76E03F278C38FE009DC7ED /* InnoVideoConverteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB76E036278C38FD009DC7ED /* InnoVideoConverteriOS.framework */; };
+		DB76E044278C38FE009DC7ED /* InnoVideoConverteriOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E043278C38FE009DC7ED /* InnoVideoConverteriOSTests.swift */; };
+		DB76E045278C38FE009DC7ED /* InnoVideoConverteriOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DB76E039278C38FD009DC7ED /* InnoVideoConverteriOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB76E053278C43B5009DC7ED /* InnoConverterVideoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E052278C43B5009DC7ED /* InnoConverterVideoType.swift */; };
+		DB76E054278C43B5009DC7ED /* InnoConverterVideoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E052278C43B5009DC7ED /* InnoConverterVideoType.swift */; };
+		DB76E056278C43DE009DC7ED /* InnoConverterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E055278C43DE009DC7ED /* InnoConverterStatus.swift */; };
+		DB76E057278C43DE009DC7ED /* InnoConverterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E055278C43DE009DC7ED /* InnoConverterStatus.swift */; };
+		DB76E059278C4404009DC7ED /* InnoConverterQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E058278C4404009DC7ED /* InnoConverterQuality.swift */; };
+		DB76E05A278C4404009DC7ED /* InnoConverterQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E058278C4404009DC7ED /* InnoConverterQuality.swift */; };
+		DB76E05C278C4421009DC7ED /* InnoConverterSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E05B278C4421009DC7ED /* InnoConverterSpeed.swift */; };
+		DB76E05D278C4421009DC7ED /* InnoConverterSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E05B278C4421009DC7ED /* InnoConverterSpeed.swift */; };
+		DB76E05F278D1096009DC7ED /* InnoVideoConverterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E05E278D1096009DC7ED /* InnoVideoConverterDelegate.swift */; };
+		DB76E060278D1096009DC7ED /* InnoVideoConverterDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB76E05E278D1096009DC7ED /* InnoVideoConverterDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB76E040278C38FE009DC7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB76E02D278C38FD009DC7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB76E035278C38FD009DC7ED;
+			remoteInfo = InnoVideoConverteriOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1979210E5F7A963480A32129 /* Pods-InnoVideoConverteriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnoVideoConverteriOS.release.xcconfig"; path = "../../../../Andi/Research/ExampleFFMPEG/Pods/Target Support Files/Pods-InnoVideoConverteriOS/Pods-InnoVideoConverteriOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB00D76A278D345E00B9B111 /* InnoConverterMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoConverterMapper.swift; sourceTree = "<group>"; };
+		DB00D76F278D357800B9B111 /* CGFloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		DB00D772278D36F600B9B111 /* InnoVideoConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoVideoConverter.swift; sourceTree = "<group>"; };
+		DB76E036278C38FD009DC7ED /* InnoVideoConverteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InnoVideoConverteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB76E039278C38FD009DC7ED /* InnoVideoConverteriOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InnoVideoConverteriOS.h; sourceTree = "<group>"; };
+		DB76E03E278C38FE009DC7ED /* InnoVideoConverteriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InnoVideoConverteriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB76E043278C38FE009DC7ED /* InnoVideoConverteriOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoVideoConverteriOSTests.swift; sourceTree = "<group>"; };
+		DB76E052278C43B5009DC7ED /* InnoConverterVideoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoConverterVideoType.swift; sourceTree = "<group>"; };
+		DB76E055278C43DE009DC7ED /* InnoConverterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoConverterStatus.swift; sourceTree = "<group>"; };
+		DB76E058278C4404009DC7ED /* InnoConverterQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoConverterQuality.swift; sourceTree = "<group>"; };
+		DB76E05B278C4421009DC7ED /* InnoConverterSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoConverterSpeed.swift; sourceTree = "<group>"; };
+		DB76E05E278D1096009DC7ED /* InnoVideoConverterDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnoVideoConverterDelegate.swift; sourceTree = "<group>"; };
+		E4655658E138C367ED230200 /* Pods_InnoVideoConverteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InnoVideoConverteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F400D340CD9CCCF217F271E7 /* Pods-InnoVideoConverteriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InnoVideoConverteriOS.debug.xcconfig"; path = "../../../../Andi/Research/ExampleFFMPEG/Pods/Target Support Files/Pods-InnoVideoConverteriOS/Pods-InnoVideoConverteriOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB76E033278C38FD009DC7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCE0C75A34D7C5C24AA3021 /* Pods_InnoVideoConverteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB76E03B278C38FE009DC7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76E03F278C38FE009DC7ED /* InnoVideoConverteriOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BA9AA2B915FDE414F35DA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F400D340CD9CCCF217F271E7 /* Pods-InnoVideoConverteriOS.debug.xcconfig */,
+				1979210E5F7A963480A32129 /* Pods-InnoVideoConverteriOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		766329458774574AE90B2A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4655658E138C367ED230200 /* Pods_InnoVideoConverteriOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB00D769278D343600B9B111 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				DB00D76A278D345E00B9B111 /* InnoConverterMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		DB00D76E278D356200B9B111 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB00D76F278D357800B9B111 /* CGFloatExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DB76E02C278C38FD009DC7ED = {
+			isa = PBXGroup;
+			children = (
+				DB76E038278C38FD009DC7ED /* InnoVideoConverteriOS */,
+				DB76E042278C38FE009DC7ED /* InnoVideoConverteriOSTests */,
+				DB76E037278C38FD009DC7ED /* Products */,
+				71BA9AA2B915FDE414F35DA2 /* Pods */,
+				766329458774574AE90B2A99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB76E037278C38FD009DC7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E036278C38FD009DC7ED /* InnoVideoConverteriOS.framework */,
+				DB76E03E278C38FE009DC7ED /* InnoVideoConverteriOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB76E038278C38FD009DC7ED /* InnoVideoConverteriOS */ = {
+			isa = PBXGroup;
+			children = (
+				DB00D76E278D356200B9B111 /* Extension */,
+				DB00D769278D343600B9B111 /* Mapper */,
+				DB76E050278C4077009DC7ED /* Protocol */,
+				DB76E04F278C405F009DC7ED /* Enum */,
+				DB76E039278C38FD009DC7ED /* InnoVideoConverteriOS.h */,
+				DB00D772278D36F600B9B111 /* InnoVideoConverter.swift */,
+			);
+			path = InnoVideoConverteriOS;
+			sourceTree = "<group>";
+		};
+		DB76E042278C38FE009DC7ED /* InnoVideoConverteriOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E043278C38FE009DC7ED /* InnoVideoConverteriOSTests.swift */,
+			);
+			path = InnoVideoConverteriOSTests;
+			sourceTree = "<group>";
+		};
+		DB76E04F278C405F009DC7ED /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E052278C43B5009DC7ED /* InnoConverterVideoType.swift */,
+				DB76E055278C43DE009DC7ED /* InnoConverterStatus.swift */,
+				DB76E058278C4404009DC7ED /* InnoConverterQuality.swift */,
+				DB76E05B278C4421009DC7ED /* InnoConverterSpeed.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		DB76E050278C4077009DC7ED /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DB76E05E278D1096009DC7ED /* InnoVideoConverterDelegate.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB76E031278C38FD009DC7ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76E045278C38FE009DC7ED /* InnoVideoConverteriOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB76E035278C38FD009DC7ED /* InnoVideoConverteriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB76E048278C38FE009DC7ED /* Build configuration list for PBXNativeTarget "InnoVideoConverteriOS" */;
+			buildPhases = (
+				25B98B91D98F67059965923D /* [CP] Check Pods Manifest.lock */,
+				DB76E031278C38FD009DC7ED /* Headers */,
+				DB76E032278C38FD009DC7ED /* Sources */,
+				DB76E033278C38FD009DC7ED /* Frameworks */,
+				DB76E034278C38FD009DC7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnoVideoConverteriOS;
+			productName = InnoVideoConverteriOS;
+			productReference = DB76E036278C38FD009DC7ED /* InnoVideoConverteriOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB76E03D278C38FE009DC7ED /* InnoVideoConverteriOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB76E04B278C38FE009DC7ED /* Build configuration list for PBXNativeTarget "InnoVideoConverteriOSTests" */;
+			buildPhases = (
+				DB76E03A278C38FE009DC7ED /* Sources */,
+				DB76E03B278C38FE009DC7ED /* Frameworks */,
+				DB76E03C278C38FE009DC7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB76E041278C38FE009DC7ED /* PBXTargetDependency */,
+			);
+			name = InnoVideoConverteriOSTests;
+			productName = InnoVideoConverteriOSTests;
+			productReference = DB76E03E278C38FE009DC7ED /* InnoVideoConverteriOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB76E02D278C38FD009DC7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DB76E035278C38FD009DC7ED = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					DB76E03D278C38FE009DC7ED = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DB76E030278C38FD009DC7ED /* Build configuration list for PBXProject "InnoVideoConverteriOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB76E02C278C38FD009DC7ED;
+			productRefGroup = DB76E037278C38FD009DC7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB76E035278C38FD009DC7ED /* InnoVideoConverteriOS */,
+				DB76E03D278C38FE009DC7ED /* InnoVideoConverteriOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB76E034278C38FD009DC7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB76E03C278C38FE009DC7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25B98B91D98F67059965923D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InnoVideoConverteriOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB76E032278C38FD009DC7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76E05F278D1096009DC7ED /* InnoVideoConverterDelegate.swift in Sources */,
+				DB00D770278D357800B9B111 /* CGFloatExtension.swift in Sources */,
+				DB76E05C278C4421009DC7ED /* InnoConverterSpeed.swift in Sources */,
+				DB76E056278C43DE009DC7ED /* InnoConverterStatus.swift in Sources */,
+				DB76E059278C4404009DC7ED /* InnoConverterQuality.swift in Sources */,
+				DB76E053278C43B5009DC7ED /* InnoConverterVideoType.swift in Sources */,
+				DB00D773278D36F600B9B111 /* InnoVideoConverter.swift in Sources */,
+				DB00D76B278D345E00B9B111 /* InnoConverterMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB76E03A278C38FE009DC7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB76E057278C43DE009DC7ED /* InnoConverterStatus.swift in Sources */,
+				DB00D774278D36F600B9B111 /* InnoVideoConverter.swift in Sources */,
+				DB00D76C278D345E00B9B111 /* InnoConverterMapper.swift in Sources */,
+				DB76E05D278C4421009DC7ED /* InnoConverterSpeed.swift in Sources */,
+				DB76E054278C43B5009DC7ED /* InnoConverterVideoType.swift in Sources */,
+				DB76E05A278C4404009DC7ED /* InnoConverterQuality.swift in Sources */,
+				DB00D771278D357800B9B111 /* CGFloatExtension.swift in Sources */,
+				DB76E060278D1096009DC7ED /* InnoVideoConverterDelegate.swift in Sources */,
+				DB76E044278C38FE009DC7ED /* InnoVideoConverteriOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB76E041278C38FE009DC7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB76E035278C38FD009DC7ED /* InnoVideoConverteriOS */;
+			targetProxy = DB76E040278C38FE009DC7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB76E046278C38FE009DC7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB76E047278C38FE009DC7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB76E049278C38FE009DC7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F400D340CD9CCCF217F271E7 /* Pods-InnoVideoConverteriOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.innocent.InnoVideoConverteriOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB76E04A278C38FE009DC7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1979210E5F7A963480A32129 /* Pods-InnoVideoConverteriOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.innocent.InnoVideoConverteriOS;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB76E04C278C38FE009DC7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.innocent.InnoVideoConverteriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB76E04D278C38FE009DC7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mnc.innocent.InnoVideoConverteriOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB76E030278C38FD009DC7ED /* Build configuration list for PBXProject "InnoVideoConverteriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB76E046278C38FE009DC7ED /* Debug */,
+				DB76E047278C38FE009DC7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB76E048278C38FE009DC7ED /* Build configuration list for PBXNativeTarget "InnoVideoConverteriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB76E049278C38FE009DC7ED /* Debug */,
+				DB76E04A278C38FE009DC7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB76E04B278C38FE009DC7ED /* Build configuration list for PBXNativeTarget "InnoVideoConverteriOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB76E04C278C38FE009DC7ED /* Debug */,
+				DB76E04D278C38FE009DC7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB76E02D278C38FD009DC7ED /* Project object */;
+}

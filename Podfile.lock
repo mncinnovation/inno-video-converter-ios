@@ -1,0 +1,16 @@
+PODS:
+  - ffmpeg-kit-ios-min-gpl (4.5.LTS)
+
+DEPENDENCIES:
+  - ffmpeg-kit-ios-min-gpl (= 4.5.LTS)
+
+SPEC REPOS:
+  trunk:
+    - ffmpeg-kit-ios-min-gpl
+
+SPEC CHECKSUMS:
+  ffmpeg-kit-ios-min-gpl: c79bfdc407500c6637445124ad79799823866094
+
+PODFILE CHECKSUM: 2a627bb5c0e0edc733fe113b2af7b278bc77803d
+
+COCOAPODS: 1.11.2
