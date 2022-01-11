@@ -87,7 +87,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "ASCore/**/*.{swift}"
+  spec.source_files  = "InnoVideoConverteriOS/**/*.{swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
