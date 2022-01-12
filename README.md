@@ -71,8 +71,6 @@ func innoVideoConverter(didSuccessAtConverter converter: InnoVideoConverter, vid
     // Convert video is successful
 }
     
-// MARK: - Optional InnoVideoConverterDelegate's methods
-    
 func innoVideoConverter(beginExecuteAtConverter converter: InnoVideoConverter) {
     // Video starts converting
 }
