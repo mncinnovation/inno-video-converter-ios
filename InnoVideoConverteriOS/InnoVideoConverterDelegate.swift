@@ -17,7 +17,7 @@ public protocol InnoVideoConverterDelegate: AnyObject {
     func innoVideoConverter(didErrorAtConverter converter: InnoVideoConverter, error: String)
 }
 
-extension InnoVideoConverterDelegate {
+public extension InnoVideoConverterDelegate {
     func innoVideoConverter(beginExecuteAtConverter converter: InnoVideoConverter) {}
     func innoVideoConverter(didReceivedLogAtConverter converter: InnoVideoConverter, log: String) {}
     func innoVideoConverter(didErrorAtConverter converter: InnoVideoConverter, error: String) {}
