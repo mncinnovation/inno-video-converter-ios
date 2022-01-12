@@ -7,7 +7,11 @@
 To integrate InnoVideoConverteriOS into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'InnoVideoConverteriOS', :git => 'https://github.com/mncinnovation/inno-video-converter-ios.git'
+source 'https://github.com/mncinnovation/inno-video-converter-ios-podspec.git'
+```
+
+```ruby
+pod 'InnoVideoConverteriOS'
 ```
 
 
